@@ -1,0 +1,63 @@
+/* ( 배너 사진 , 글폰트,색상 ) */
+
+#subVisual.banner1 {
+    background-image: url('../images/galley_common/sub-banner-1.jpg');
+}
+#subVisual.banner2 {
+    background-image: url('../images/galley_common/sub-banner-2.jpg');
+}
+#subVisual.banner3 {
+    background-image: url('../images/galley_common/sub-banner-3.jpg');
+}
+
+.page-title h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 58px;
+    letter-spacing: -1.5px;
+}
+.content-wrap {
+    margin: 150px auto;
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+}
+
+.title-wrap {
+    padding: 0 0 55px;
+    position: relative;
+    z-index: 1;
+}
+
+.hide {
+    top: -999999px;
+    left: -999999px;
+    position: absolute;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+body * {
+    box-sizing: border-box;
+}
+body {
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+}
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content-box {
+    min-height: 400px;
+    padding: 0 0 65px 0;
+}

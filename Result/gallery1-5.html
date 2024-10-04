@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>연구산학 | 주요연구성과</title>
+        <link rel="stylesheet" href="css/gallery1.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/subVisual.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+
+        <style></style>
+    </head>
+    <body>
+        <header id="header"></header>
+        <div id="gallery1">
+            <section id="subVisual" class="banner1">
+                <p class="title-text">THE CATHOLIC UNIVERSITY OF KOREA</p>
+                <div class="pathbox">
+                    <ul class="pathbox-left">
+                        <li>
+                            <a href="index.html"><i class="xi-home"></i></a>
+                        </li>
+                        <li>
+                            연구 · 산학<a href="#"><i class="xi-angle-down-min"></i></a>
+                        </li>
+                        <li>
+                            연구성과<a href="#"><i class="xi-angle-down-min"></i></a>
+                        </li>
+                        <li>
+                            주요연구성과<a href="#"><i class="xi-angle-down-min"></i></a>
+                        </li>
+                    </ul>
+                    <div class="right-box">
+                        <a href="#"><i class="xi-print"></i></a>
+                        <a href="#"><i class="xi-share-alt-o"></i></a>
+                    </div>
+                </div>
+            </section>
+            <div id="wrap">
+                <div class="page-title">
+                    <h3>주요연구성과</h3>
+                </div>
+                <ul id="imageList"></ul>
+            </div>
+            <div class="b-paging01-type01">
+                <div class="b-paging-wrap">
+                    <ul>
+                        <li class="first pager">
+                            <a href="gallery1-1.html" title="첫 페이지로 이동하기">
+                                <span class="hide"
+                                    ><img src="images/btn-first-page.png" alt=""
+                                /></span>
+                            </a>
+                        </li>
+
+                        <li class="prev pager">
+                            <a href="gallery1-4.html" title="이전 페이지로 이동하기">
+                                <span class="hide"
+                                    ><img src="images/btn-prev-page.png" alt=""
+                                /></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-1.html"><span>1</span></a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-2.html"><span>2</span></a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-3.html"><span>3</span></a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-4.html"><span>4</span></a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-5.html" class="active"><span>5</span></a>
+                        </li>
+
+                        <li>
+                            <a href="gallery1-6.html"><span>6</span></a>
+                        </li>
+
+                        <li class="next-pager">
+                            <a href="gallery1-6.html" title="다음 페이지로 이동하기">
+                                <span class="hide"
+                                    ><img src="images/btn-next-page.png" alt=""
+                                /></span>
+                            </a>
+                        </li>
+
+                        <li class="last-pager">
+                            <a href="gallery1-6.html" title="마지막 페이지로 이동하기">
+                                <span class="hide"
+                                    ><img src="images/btn-last-page.png" alt=""
+                                /></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+        <script src="js/gallery1.js"></script>
+        <script src="js/common.js"></script>
+        <script>
+            const url = './JSON/gallery_DB.json';
+            fetch(url)
+                .then((res) => res.json())
+                .then((json) => {
+                    imageData = json.gallery_5;
+                    for (let i = 0; i < imageData.length; i++) {
+                        addImageEntry();
+                    }
+                });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,189 @@
+#login_page {
+    --color-blue: #002252;
+    --font-color-dark: #979798;
+    --font-color-white: #afafaf;
+    --font-size-l: 16px;
+    --font-size-s: 12px;
+}
+
+#login_page h2 {
+    font-size: 18px;
+}
+#login_page {
+    width: 100vw;
+    height: 100vh;
+    background: transparent url(../images/loginpage_bg.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_page .wrap {
+    width: 750px;
+    height: 610px;
+    background: url(../images/app.bg.png);
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+}
+
+#login_page .wrap #app {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#login_page .wrap .appBox {
+    /* background-color: skyblue; */
+    width: 330px;
+    height: 510px;
+    margin: 20px 25px;
+    display: flex;
+    justify-content: start;
+    /* overflow-y: hidden;
+    overflow-x: inherit */
+}
+#login_page .LoginInner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* background-size: cover; */
+}
+
+#login_page #prevBox {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center */
+}
+#login_page #prevBox #page_prev {
+    font-size: 50px;
+}
+#login_page #copyright {
+    width: inherit;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-size: 13px;
+    border-top: 1px solid #e0e0e0;
+    justify-content: center;
+}
+#login_page #copyright p {
+    margin-right: 15px;
+}
+#login_page .loginPage_aBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+#login_page .loginPage_aBox a {
+    color: var(--font-color-dark);
+    text-decoration: none;
+}
+#login_page .wrap .bookPage1 {
+    width: 375px;
+    height: inherit;
+    position: absolute;
+    box-sizing: border-box;
+}
+#login_page .wrap .bookPage2 {
+    width: 375px;
+    height: inherit;
+    right: 0;
+    position: absolute;
+    box-sizing: border-box;
+}
+#login_page .animationCard {
+    width: 375px;
+    position: absolute;
+    right: 0;
+    border-right: 1px solid #7e7e7e;
+    box-sizing: border-box;
+    height: inherit;
+    z-index: -1;
+    transform: rotateY(0deg);
+    /* transition: 2.5s; */
+    transform-style: preserve-3d;
+    transform-origin: left;
+
+    /* background-color: #979798; */
+}
+
+#login_page .animationCard .animationCardFront {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 2;
+    background-image: url('../images/app.bg.slide2.png');
+
+    /* background-color: aqua; */
+    /* background-color: #002252;
+    opacity: 0.3; */
+}
+#login_page .animationCard .animationCardBack {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 1;
+    transform: rotateY(-180deg);
+    background-image: url('../images/app.bg.slide1.png');
+    /* background-color: #002252;
+    opacity: 0.3; */
+}
+
+#login_page .animationLeft .animationCardFront {
+    background-image: url('../images/app.bg.slide1.png') !important;
+}
+#login_page .animationLeft .animationCardBack {
+    background-image: url('../images/app.bg.slide2.png') !important;
+}
+#login_page .animationLeft {
+    left: 0;
+    transform-origin: right !important;
+    z-index: 1;
+    border-right: none;
+    border-left: 1px solid #7e7e7e;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-name: bookPrev;
+}
+#login_page .animationRight {
+    z-index: 1;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-name: bookNext;
+}
+
+@keyframes bookNext {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(-180deg);
+    }
+}
+@keyframes bookPrev {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}

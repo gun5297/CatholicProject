@@ -1,0 +1,114 @@
+#greetingPage .tab-box {
+  padding: 25px 0 0;
+}
+#greetingPage .tab-box ul {
+  display: flex;
+}
+#greetingPage .tab-box ul li {
+  margin: 0 3px 0 0;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#greetingPage .tab-box ul li .active {
+  border: 2px solid #0c2e86;
+}
+
+#greetingPage .tab-box ul li .active a {
+  background-color: #fff;
+}
+
+#greetingPage .tab-box ul li a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+#greetingPage .tab-box ul li .active a span {
+  padding: 15px 10px;
+  color: #0c2e86;
+}
+
+#greetingPage .tab-box ul li a span {
+  display: table-cell;
+  font-weight: 700;
+  padding: 16px 10px;
+  color: #333;
+  line-height: 26px;
+  text-align: center;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+#greetingPage .content-box {
+  min-height: 400px;
+}
+#greetingPage .con-box {
+  padding: 0 0 65px 0;
+}
+#greetingPage .con-box * {
+  word-break: keep-all;
+}
+#greetingPage .con-box02 {
+  padding: 0 0 45px 0;
+}
+#greetingPage .con-box03 {
+  padding: 0 0 30px 0;
+}
+#greetingPage .con-p {
+  padding: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#greetingPage .h6-tit01 {
+  padding: 0 0 10px 0;
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+  line-height: 26px;
+}
+#greetingPage .no-pd {
+  padding-bottom: 0 !important;
+}
+#greetingPage .intro .box1 {
+  display: flex;
+  word-break: break-all;
+}
+#greetingPage .intro .box1 > div {
+  width: calc((100% - 145px) / 2);
+}
+#greetingPage .intro .box1 .con-box03:last-child {
+  position: relative;
+  padding-bottom: 50px;
+}
+#greetingPage .intro .box1 > div + div {
+  margin-left: 145px;
+}
+
+#greetingPage .sign-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#greetingPage .sign-wrap p {
+  font-size: 26px;
+  color: #000;
+}
+
+#greetingPage .sign-wrap p span {
+  font-weight: 700;
+}
+
+#greetingPage img {
+  max-width: 100%;
+  vertical-align: middle;
+}

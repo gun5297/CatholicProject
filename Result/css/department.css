@@ -1,0 +1,159 @@
+
+#departmentPage .tab-box {
+  padding: 25px 0 0;
+}
+
+#departmentPage .tab-outer.type02 .tab-box ul {
+  flex-wrap: wrap;
+}
+
+#departmentPage .tab-box ul {
+  display: flex;
+}
+
+#departmentPage .tab-outer.type02 .tab-box ul li {
+  margin-bottom: 3px;
+  width: 300px;
+}
+
+#departmentPage .tab-box ul li {
+  margin: 0 3px 0 0;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#departmentPage .tab-box ul li.active {
+  border: 1px solid #0c2e86;
+}
+
+#departmentPage .tab-box ul li a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+#departmentPage .tab-box ul li a span {
+  display: table-cell;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  word-break: keep-all;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  color: #333;
+  padding: 16px 10px;
+}
+
+#departmentPage .content-box {
+  min-height: 400px;
+}
+
+#departmentPage .con-tit {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 700;
+  padding: 0 0 30px 0;
+}
+
+#departmentPage .con-box {
+  padding: 0 0 65px 0;
+}
+
+#departmentPage .no-pd {
+  padding-bottom: 0 !important;
+}
+
+#departmentPage .edu_undergd .depart {
+  border-top: 1px solid #ececec;
+  padding: 50px 0;
+  display: flex;
+  position: relative;
+}
+
+#departmentPage .edu_undergd .depart .depart-name {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  width: 310px;
+  margin-top: 12px;
+}
+
+#departmentPage .edu_undergd .depart .depart-name + * {
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#departmentPage .edu_undergd .depart .depart-name span {
+  font-size: 20px;
+}
+
+#departmentPage .edu_undergd .depart > ul > li {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 520px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#departmentPage .edu_undergd .depart > ul > li > a {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#departmentPage.edu_undergd .depart .left .mj-name {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 40px;
+  color: #111;
+
+  padding-right: 15px;
+}
+
+#departmentPage .edu_undergd .depart .left .mj-name::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+#departmentPage .edu_undergd .depart .right {
+  display: flex;
+  font-size: 10px;
+  color: #555;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+#departmentPage .edu_undergd .depart .right li {
+  padding-left: 22px;
+  position: relative;
+}
+
+#departmentPage .edu_undergd .depart .right li + li {
+  margin-left: 20px;
+}
+
+#departmentPage .edu_undergd .depart .right li::before {
+  content: "";
+  display: block;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

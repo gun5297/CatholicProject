@@ -1,0 +1,1081 @@
+/* qna */
+#qna .banner1 {
+    width: 100%;
+    background: url(../images/qnaPage/44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sub1 .inner {
+    padding: 150px 100px;
+}
+#qna .sub1 .inner .noc {
+    margin-bottom: 55px;
+}
+#qna .sub1 .inner .noc h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    margin-left: 25px;
+}
+#qna .sub1 .inner .noc .nocbox {
+    border: 1px solid #dcdcdc;
+    display: grid;
+    padding: 26px 31px;
+}
+#qna .sub1 .inner .noc .nocbox p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#qna .sub1 .inner .noc .nocbox strong {
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 7px;
+    margin-bottom: 1px;
+}
+#qna .sub1 .inner .noc .nocbox strong::after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#qna .sub1 .inner .noc .nocbox em {
+    font-size: 14px;
+    font-weight: 400;
+}
+#qna .sub1 .inner .srh {
+    display: block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#qna .sub1 .inner .srh select {
+    border: none;
+    padding-right: 10px;
+}
+#qna .sub1 .inner .srh select {
+}
+#qna .sub1 .inner .srh .txt {
+    border: none;
+    width: 450px;
+    padding-left: 20px;
+    appearance: none;
+}
+#qna .sub1 .inner .srh button {
+    width: 35px;
+    height: 30px;
+    background-image: url(../images/myVisual/ico-search-btn.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#qna .sub1 .inner .qna {
+    margin-top: 164px;
+}
+
+#qna .sub1 .inner .qna .qnabox {
+    height: 80px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+#qna .sub1 .inner .qna .qnabox.on {
+    height: 300px;
+}
+
+#qna .sub1 .inner .qna li {
+    display: flex;
+    position: relative;
+    padding: 26px 0;
+    border-top: 1px solid #dcdcdc;
+}
+#qna .sub1 .inner .qna .qnabox:nth-child(1) {
+    border-top: 3px solid #dcdcdc;
+}
+#qna .sub1 .inner .qna .qnabox:nth-child(5) {
+    border-bottom: 1px solid #dcdcdc;
+}
+#qna .sub1 .inner .qna li::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/bg-google-arr.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+#qna .sub1 .inner .qna li.on::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/qnaPage/bg-google-arr.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-35%);
+    transform: rotateX(180deg);
+}
+#qna .sub1 .inner .qna li.on {
+}
+#qna .sub1 .inner .qna li .q-box {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: #dcdcdc;
+    border-radius: 50%;
+    position: relative;
+}
+
+#qna .sub1 .inner .qna li.on .q-box {
+    background: darkblue;
+}
+#qna .sub1 .inner .qna li .q-box p {
+    display: block;
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+}
+
+#qna .sub1 .inner .qna li.on .q-box p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+}
+
+#qna .sub1 .inner .qna li > p {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 58px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#qna .sub1 .inner .qna .a-box .anw {
+    display: flex;
+    padding-left: 58px;
+    background: whitesmoke;
+    height: 300px;
+}
+#qna .sub1 .inner .qna .a-box .anw p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#qna .sub1 .inner .qna .a-box .anw p:nth-child(1) {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+/*-- //qna end */
+
+/* schedule */
+#schedule .banner1 {
+    width: 100%;
+    background: url(../images/schedulePage/39.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#schedule .sub1 {
+}
+#schedule .sub1 .inner {
+    padding: 150px 100px;
+}
+#schedule .sub1 .inner .menu {
+}
+#schedule .sub1 .inner .menu h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+#schedule .sub1 .inner .menu ul {
+    display: flex;
+}
+#schedule .sub1 .inner .menu ul li {
+    width: 344px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    background: whitesmoke;
+}
+#schedule .sub1 .inner .menu ul li.on {
+    border: 3px solid darkblue;
+    color: darkblue;
+    background: whitesmoke;
+}
+
+#schedule .sub1 .inner .dlbtn button {
+    width: 174px;
+    height: 50px;
+    background: darkblue;
+    background-image: url(../images/schedulePage/dlimag.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    margin-top: 62px;
+    border-radius: 5px;
+}
+#schedule .sub1 .inner .dlbtn button a {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 25px;
+    position: relative;
+}
+
+#schedule .sub1 .inner .dlbtn button.on {
+    display: none;
+}
+
+#schedule .sub1 .inner .selbtn {
+    display: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#schedule .sub1 .inner .selbtn.on {
+    display: block;
+}
+#schedule .sub1 .inner .selbtn .sel {
+    width: 150px;
+    height: 50px;
+    padding-left: 13px;
+    border: 1px solid #dcdcdc;
+    appearance: none;
+    background-image: url(../images/schedulePage/ico-sel-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+#schedule .sub1 .inner .selbtn button {
+    width: 67px;
+    height: 45px;
+    background: darkblue;
+}
+#schedule .sub1 .inner .selbtn button p {
+    color: #ffff;
+}
+#schedule .sub1 .inner .tranbtns {
+    position: absolute;
+    top: 380px;
+    right: 100px;
+}
+#schedule .sub1 .inner .tranbtns button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+}
+#schedule .sub1 .inner .tranbtns .cal.on {
+    border: 1px solid darkblue;
+}
+#schedule .sub1 .inner .tranbtns .cal.on i {
+    color: darkblue;
+}
+#schedule .sub1 .inner .tranbtns .list.on {
+    border: 1px solid darkblue;
+}
+#schedule .sub1 .inner .tranbtns .list.on i {
+    color: darkblue;
+}
+
+#schedule .sub1 .inner .scdu {
+    display: grid;
+    margin-top: 20px;
+}
+#schedule .sub1 .inner .scdu .tit {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    width: 1400px;
+    background: whitesmoke;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#schedule .sub1 .inner .scdu .conbox .tit p:nth-child(1) {
+    font-weight: 900;
+    width: 220px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #dcdcdc;
+    border-left: none;
+}
+#schedule .sub1 .inner .scdu .conbox .tit p:nth-child(2) {
+    border-right: 1px solid #dcdcdc;
+    width: 290px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .conbox .tit p:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 57px;
+}
+#schedule .sub1 .inner .scdu .conbox.on {
+    display: none;
+}
+
+#schedule .sub1 .inner .scdu .box {
+    display: flex;
+}
+#schedule .sub1 .inner .scdu ul {
+}
+#schedule .sub1 .inner .scdu .mon {
+    font-weight: 900;
+    font-size: 20px;
+}
+#schedule .sub1 .inner .scdu .mon li {
+    display: inline-block;
+    border-left: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(1) {
+    width: 220px;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(2) {
+    width: 220px;
+    height: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(3) {
+    width: 220px;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(4) {
+    width: 220px;
+    height: 303px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(5) {
+    width: 220px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(6) {
+    width: 220px;
+    height: 486px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(7) {
+    width: 220px;
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(8) {
+    width: 220px;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(9) {
+    width: 220px;
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(10) {
+    width: 220px;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(11) {
+    width: 220px;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .mon li:nth-child(12) {
+    width: 220px;
+    height: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .day {
+    font-size: 16px;
+    font-weight: 400;
+}
+#schedule .sub1 .inner .scdu .day li {
+    display: inline;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    width: 290px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#schedule .sub1 .inner .scdu .cont {
+    font-size: 16px;
+    font-weight: 400;
+}
+#schedule .sub1 .inner .scdu .cont li {
+    display: inline;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-right: none;
+    width: 870px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#schedule .sub1 .inner .scdu .conbox2 {
+    display: none;
+}
+#schedule .sub1 .inner .scdu .conbox2.on {
+    display: flex;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 {
+    border: 1px solid #dcdcdc;
+    width: 940px;
+    height: 888px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 thead tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 thead th {
+    border-left: 1px solid #dcdcdc;
+    width: 134px;
+    height: 42px;
+    line-height: 50px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 thead th:nth-child(1) {
+    color: red;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody td {
+    padding: 8px 0 0 8px;
+    border-right: 1px solid #dcdcdc;
+    position: relative;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody td:nth-child(1) {
+    color: red;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(1) {
+    background-image: url(../images/schedulePage/Background.png),
+        url(../images/schedulePage/Background3.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px, 270px 55px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.active tr:nth-child(1) {
+    background-image: url(../images/schedulePage/Background12.png);
+    background-repeat: no-repeat;
+    background-position: 135px 30px;
+}
+
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(2) {
+    background-image: url(../images/schedulePage/Background.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.active tr:nth-child(2) td:nth-child(3) {
+    background-image: url(../images/schedulePage/Background14.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(3) {
+    background-image: url(../images/schedulePage/Background.png),
+        url(../images/schedulePage/Background4.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px, 135px 55px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.in tr:nth-child(3) {
+    background-image: url(../images/schedulePage/Background16.png),
+        url(../images/schedulePage/Background17.png);
+    background-repeat: no-repeat;
+    background-position: 135px 30px, 135px 55px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.in tr:nth-child(3) td:nth-child(6) {
+    background-image: url(../images/schedulePage/Background18.png);
+    background-repeat: no-repeat;
+    background-position: 0 80px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.active tr:nth-child(3) td:nth-child(6) {
+    background-image: url(../images/schedulePage/Background15.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(3) td:nth-child(6) {
+    background-image: url(../images/schedulePage/Background5.png);
+    background-repeat: no-repeat;
+    background-position: 0 80px;
+    background-size: contain;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(4) {
+    background-image: url(../images/schedulePage/Background.png),
+        url(../images/schedulePage/Background6.png), url(../images/schedulePage/Background7.png),
+        url(../images/schedulePage/Background8.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px, 0 55px, 135px 80px, 135px 105px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(5) {
+    background-image: url(../images/schedulePage/Background9.png),
+        url(../images/schedulePage/Background10.png);
+    background-repeat: no-repeat;
+    background-position: 135px 30px, 135px 55px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(5) td:nth-child(1) {
+    background-image: url(../images/schedulePage/Background13.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(5) td:nth-child(4) {
+    background-image: url(../images/schedulePage/Background11.png);
+    background-repeat: no-repeat;
+    background-position: 0 55px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con1 tbody.on tr:nth-child(6) {
+    background-image: url(../images/schedulePage/Background12.png);
+    background-repeat: no-repeat;
+    background-position: 135px 30px;
+}
+
+#schedule .sub1 .inner .scdu .conbox2 .con2 {
+    width: 437px;
+    height: 733px;
+    margin-left: 21px;
+    font-size: 16px;
+    font-weight: 900;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con2 p {
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con2 .con2-box {
+    height: 675px;
+    border: 1px solid #dcdcdc;
+    overflow-y: scroll;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con2 ul {
+    border-bottom: 1px solid #dcdcdc;
+    height: 90px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con2 ul li {
+    padding: 20px 0 0 30px;
+}
+#schedule .sub1 .inner .scdu .conbox2 .con2 ul em {
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+/*-- //schedule */
+
+/* notice board */
+#noticeBoard .banner1 {
+    width: 100%;
+    background: url(../images/noticeBoardPage/44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#noticeBoard .sub1 .inner {
+    padding: 150px 100px;
+}
+#noticeBoard .sub1 .inner h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    margin-left: 50px;
+}
+#noticeBoard .sub1 .inner .menu {
+    margin-left: 50px;
+}
+#noticeBoard .sub1 .inner .menu ul {
+    display: flex;
+    margin-bottom: 76px;
+}
+#noticeBoard .sub1 .inner .menu ul li {
+    background: whitesmoke;
+
+    width: 277px;
+    height: 56px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 55px;
+}
+#noticeBoard .sub1 .inner .menu ul li.on {
+    border: 3px solid darkblue;
+    color: darkblue;
+    background: white;
+}
+
+#noticeBoard .sub1 .inner .srh {
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    margin-left: 441px;
+    margin-bottom: 48px;
+}
+#noticeBoard .sub1 .inner .srh select {
+    border: none;
+}
+#noticeBoard .sub1 .inner .srh .text {
+    border: none;
+    width: 417px;
+    padding-left: 34px;
+}
+#noticeBoard .sub1 .inner .srh button {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    background-image: url(../images/myVisual/ico-search-btn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#noticeBoard .sub1 .inner table {
+}
+#noticeBoard .sub1 .inner table tr {
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+    height: 65px;
+    line-height: 65px;
+}
+
+#noticeBoard .sub1 .inner table td {
+    padding: 0 27px;
+}
+#noticeBoard .sub1 .inner table td:nth-child(3) {
+    text-align: left;
+    font-weight: 500;
+}
+#noticeBoard .inner table .num {
+}
+#noticeBoard .sub1 .inner table .classification {
+}
+#noticeBoard .sub1 .inner table .title {
+}
+#noticeBoard .sub1 .inner table .date {
+}
+#noticeBoard .sub1 .inner table .writer {
+}
+#noticeBoard .sub1 .inner table .viewers {
+}
+#noticeBoard .sub1 .inner table .viewers {
+}
+#noticeBoard .sub1 .inner table thead tr {
+    border-bottom: 3px solid #dcdcdc;
+}
+#noticeBoard .sub1 .inner table thead tr:nth-child(1) {
+    font-weight: 500;
+}
+#noticeBoard .sub1 .inner table thead td {
+}
+#noticeBoard .sub1 .inner table .notice tr {
+}
+/* 번호:공지 */
+#noticeBoard .sub1 .inner table .notice td:nth-child(1) {
+    border-radius: 16px;
+    display: inline;
+    /* width: 66px;
+	height: 31px; */
+    padding: 8px 8px 8px 40px;
+    background-image: url(../images/noticeBoardPage/board.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 50%;
+    transform: translateY(-50%);
+    background-color: whitesmoke;
+    color: darkblue;
+    font-weight: 500;
+}
+#noticeBoard .sub1 .inner table .contents tr:last-child {
+    border-bottom: 3px solid #dcdcdc;
+}
+#noticeBoard .sub1 .inner table .contents td {
+}
+
+#noticeBoard .sub1 .inner .paging {
+    margin-top: 59px;
+    text-align: center;
+}
+#noticeBoard .sub1 .inner .paging a {
+    margin-right: 27px;
+}
+#noticeBoard .sub1 .inner .paging a.on {
+    color: darkblue;
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 7px;
+}
+
+/*-- //notice board */
+
+/* mega */
+#mega .banner1 {
+    width: 100%;
+    background: url(../images/megePage/38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#mega .sub1 .inner h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 77px;
+    display: block;
+    margin-bottom: 102px;
+}
+#mega .sub1 .inner .bigsel {
+    display: flex;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+#mega .sub1 .inner .bigsel li {
+    display: block;
+    width: 280px;
+    height: 80px;
+    background: whitesmoke;
+    margin-right: 20px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+#mega .sub1 .inner .bigsel li.on {
+    background: dodgerblue;
+}
+#mega .sub1 .inner .bigsel li:hover {
+    background: dodgerblue;
+}
+
+#mega .sub1 .inner .logo {
+    display: flex;
+    margin-left: 100px;
+}
+#mega .sub1 .inner .logo img {
+    margin-right: 34px;
+}
+
+#mega .sub1 .inner .logo i {
+    background-image: url(../images/megePage/hompage_icon.png);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    border: 1px solid #dcdcdc;
+    display: block;
+    width: auto;
+    height: 43px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    padding: 0 30px 0 50px;
+}
+#mega .sub1 .inner .logo i.on {
+    display: none;
+}
+#mega .sub1 .inner > p {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 37px;
+    position: relative;
+    padding-left: 16px;
+    margin-left: 100px;
+}
+#mega .sub1 .inner > p::after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 40px;
+    background: dodgerblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mega .sub1 .inner .box {
+    display: flex;
+    margin-left: 100px;
+}
+#mega .sub1 .inner .box.on {
+    display: none;
+}
+
+#mega .sub1 .inner .box li {
+    width: 450px;
+    height: 350px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#mega .sub1 .inner .box .box2 {
+    background: whitesmoke;
+}
+
+#mega .sub1 .inner .box li img {
+    margin-top: 26px;
+    margin-bottom: 50px;
+    width: 160px;
+    height: 130px;
+    border-radius: 20px;
+}
+#mega .sub1 .inner .box .txt1 strong {
+    color: dodgerblue;
+    font-weight: 700;
+}
+#mega .sub1 .inner .box .txt2 strong {
+    color: dodgerblue;
+    font-weight: 700;
+}
+#mega .sub1 .inner .box .txt3 strong {
+    color: dodgerblue;
+    font-weight: 700;
+}
+#mega .sub1 .inner .box .txt1 p {
+    display: block;
+    width: 310px;
+    height: 76px;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#mega .sub1 .inner .box .txt2 p {
+    display: block;
+    width: 310px;
+    height: 76px;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#mega .sub1 .inner .box .txt3 p {
+    display: block;
+    width: 310px;
+    height: 76px;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#mega .sub1 .inner .txtbox {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#mega .sub1 .inner .txtbox.on {
+    display: none;
+}
+
+#mega .sub1 .inner .txtbox strong {
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: 500;
+}
+#mega .sub1 .inner .txtbox p {
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#mega .sub1 .inner .txtbox em {
+    font-size: 13px;
+    font-weight: 300;
+    border-top: 3px dotted #dcdcdc;
+    display: flex;
+    padding-top: 10px;
+}
+#mega #contentA {
+    /* width: 100%; */
+    width: 1400px;
+    margin-left: 100px;
+}
+#mega #contentA .con-box {
+    border: 5px solid #dcdcdc;
+    padding: 50px;
+    display: flex;
+    background-image: url('../images/megePage/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-position: 80% 60%;
+    background-size: auto;
+}
+#mega #contentA .con-box ul {
+}
+#mega #contentA .con-box ul li {
+}
+#mega #contentA .con-box ul li strong {
+    font-size: 40px;
+    color: dodgerblue;
+    margin-bottom: 30px;
+    display: block;
+}
+#mega #contentA .con-box ul li em {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 13px;
+    position: relative;
+    padding-left: 10px;
+}
+#mega #contentA .con-box ul li em::after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: dodgerblue;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#mega #contentA .con-box ul li p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#mega #contentA .t {
+    margin-top: 30px;
+}
+#mega #contentA .t strong {
+    color: dodgerblue;
+    font-size: 30px;
+}
+#mega #contentA .t p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#mega #contentA .t em {
+    font-size: 13px;
+    font-weight: 300;
+    border-top: 3px dotted #dcdcdc;
+    display: flex;
+    padding-top: 10px;
+}
+#mega .sub1 .inner .pictxt {
+    padding-top: 30px;
+}
+#mega .sub1 .inner .pictxt.on {
+    display: none;
+}
+#mega .sub1 .inner .pictxt > p {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 37px;
+    position: relative;
+    padding-left: 16px;
+    margin-left: 100px;
+}
+#mega .sub1 .inner .pictxt > p::after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 40px;
+    background: dodgerblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mega .sub1 .inner .pictxt ul {
+    display: flex;
+    margin-left: 130px;
+}
+#mega .sub1 .inner .pictxt ul li {
+    text-align: center;
+    padding: 0 50px;
+    border-right: 1px solid #dcdcdc;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+#mega .sub1 .inner .pictxt ul li:nth-child(3) {
+    border: none;
+}
+#mega .sub1 .inner .pictxt ul li span {
+    font-size: 50px;
+    color: #dcdcdc;
+    font-weight: 700;
+}
+#mega .sub1 .inner .pictxt ul li h2 {
+    font-size: 25px;
+    display: grid;
+}
+#mega .sub1 .inner .pictxt ul strong {
+    color: dodgerblue;
+    margin-top: 5px;
+    font-size: 25px;
+}
+#mega .sub1 .inner .pictxt ul p {
+    display: block;
+    width: 245px;
+    height: 50px;
+    margin: 30px;
+    font-weight: 500;
+}
+
+#mega .sub1 .inner .pictxt ul img {
+    margin-bottom: 70px;
+}
+
+/*-- //mega */

@@ -1,0 +1,522 @@
+.main .con-box {
+    width: 100%;
+    position: relative;
+    margin-top: 85px;
+}
+.main .con-box h2 {
+    font-size: 75px;
+    font-weight: 100;
+    color: var(--subColor);
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* cuk-head-lines */
+.main .cuk-head-lines {
+    width: 100%;
+    overflow: hidden;
+}
+.main .cuk-head-lines .cuk-head-inner {
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/main_headline_bg.jpg');
+    display: flex;
+    align-items: center;
+}
+.main .cuk-head-lines .cuk-head-inner .text-title {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main .cuk-head-lines .cuk-head-inner .text-title p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.main .cuk-head-lines .cuk-head-inner .text-title a {
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main .cuk-head-lines .cuk-head-inner .text-title a::after {
+    content: '';
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-53%);
+    height: 2px;
+    background: #fff;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    overflow: hidden;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul li {
+    padding: 30px;
+    width: 350px;
+    height: 245px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    margin-right: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul li:hover {
+    background: rgba(0, 42, 255, 0.5);
+    border: none;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul .top-title {
+    margin-bottom: 10px;
+    width: 4em;
+    font-size: 14px;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul p {
+    color: #fff;
+    font-size: 18px;
+    height: 120px;
+    word-break: keep-all;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul span {
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .con-list-ul li .btm-title {
+    display: flex;
+    justify-content: space-between;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging {
+    display: flex;
+    align-items: center;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging .paging-ul {
+    display: flex;
+    width: 1100px;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging .paging-ul li {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: relative;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging .paging-ul li div {
+    content: '';
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    /* transform: scaleX(0); */
+    background: var(--mainColor);
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging .paging-btn-wrap {
+    display: flex;
+    margin-left: 30px;
+}
+.main .cuk-head-lines .cuk-head-inner .head-lines-con-list .head-lines-paging .paging-btn-wrap i {
+    width: 50px;
+    height: 50px;
+    background: var(--subColor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 5px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.main
+    .cuk-head-lines
+    .cuk-head-inner
+    .head-lines-con-list
+    .head-lines-paging
+    .paging-btn-wrap
+    .prev-btn
+    i {
+    background: rgba(0, 0, 0, 0);
+}
+/* 메인 cuk-news-con */
+.main .cuk-news-con {
+}
+.main .cuk-news-con .news-top-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.main .cuk-news-con .news-top-wrap > strong {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main .cuk-news-con .news-top-wrap > a {
+    color: var(--subColor);
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+.main .cuk-news-con .news-top-wrap > a::after {
+    content: '';
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-53%);
+    bottom: 0;
+    background-color: var(--subColor);
+}
+.main .cuk-news-con .news-btm-wrap {
+    position: relative;
+}
+.main .cuk-news-con .news-btm-wrap .news-list {
+    display: flex;
+    overflow: hidden;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li {
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap {
+    width: 500px;
+    cursor: pointer;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap .title {
+    display: flex;
+    align-items: center;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap .title > span {
+    display: block;
+    text-align: center;
+    padding: 3px 8px;
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #4f6f85;
+    background-color: #edf0f5;
+    font-weight: 500;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap .title > strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap p {
+    display: -webkit-box;
+    margin-top: 8px;
+    width: 95%;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
+}
+.main .cuk-news-con .news-btm-wrap .news-list li .news-img-wrap .date {
+    color: #999;
+    font-size: 14px;
+}
+.main .cuk-news-con .news-btm-wrap .btn-wrap .prev-btn,
+.main .cuk-news-con .news-btm-wrap .btn-wrap .next-btn {
+    width: 75px;
+    height: 75px;
+    background: #fff;
+    border: 1px solid var(--subColor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: var(--subColor);
+}
+.main .cuk-news-con .news-btm-wrap .btn-wrap .prev-btn {
+    position: absolute;
+    left: -20px;
+    top: 40%;
+}
+.main .cuk-news-con .news-btm-wrap .btn-wrap .next-btn {
+    position: absolute;
+    right: -20px;
+    top: 40%;
+}
+
+/* 메인 mini-banner */
+.main .main-mini-banner {
+    background: var(--mainColor);
+    height: 100px;
+}
+.main .main-mini-banner .mini-banner-img-wrap {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    user-select: none;
+}
+.main .main-mini-banner .inner {
+    padding: 0 180px;
+    color: #fff;
+}
+.main .main-mini-banner .inner ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.main .main-mini-banner .inner ul li p {
+    margin-left: 120px;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.main .main-mini-banner .inner ul li p strong {
+    color: #ffec03;
+}
+.main .main-mini-banner .inner ul li a {
+    color: #fff;
+    position: relative;
+    padding: 5px;
+    font-weight: 700;
+}
+.main .main-mini-banner .inner ul li a::after {
+    content: '';
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-53%);
+    background-color: #fff;
+}
+
+/* 메인 cuk-sns-con */
+.main .cuk-sns-con {
+    overflow: hidden;
+}
+.main .cuk-sns-con ul {
+    display: flex;
+    align-items: center;
+}
+.main .cuk-sns-con ul li {
+    user-select: none;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.main .cuk-sns-con ul li .img-con-wrap {
+    width: 310px;
+    height: 410px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.main .cuk-sns-con ul li .img-con-wrap img {
+    width: 290px;
+    height: 290px;
+}
+.main .cuk-sns-con ul li .img-con-wrap p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* 메인 tab-con */
+.main .tab-con a {
+    color: #fff;
+}
+.main .tab-con .tab-con-ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main .tab-con .tab-con-ul li {
+    width: 150px;
+    height: 85px;
+    background: var(--activeColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.main .tab-con .tab-con-ul li .tab-con-title {
+    color: #fff;
+    font-weight: 500;
+    padding: 20px 50px;
+}
+.main .tab-con .tab-con-ul li.active {
+    background: var(--mainColor);
+}
+.main .tab-con .tab-con-box {
+    padding: 65px;
+    display: none;
+}
+.main .tab-con .tab-con-box.seongsim {
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/campus_bg01.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.main .tab-con .tab-con-box.seongui {
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/campus_bg02.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.main .tab-con .tab-con-box.seongsin {
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/campus_bg03.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.main .tab-con .tab-con-box.active {
+    display: block;
+}
+.main .tab-con .tab-con-box .top-box {
+    padding: 100px 0;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.main .tab-con .tab-con-box .top-box h3 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main .tab-con .tab-con-box .top-box strong {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main .tab-con .tab-con-box .top-box p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+.main .tab-con .tab-con-box .top-box ul {
+    display: flex;
+}
+.main .tab-con .tab-con-box .top-box ul li {
+    margin-right: 100px;
+}
+.main .tab-con .tab-con-box .top-box ul li a {
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+.main .tab-con .tab-con-box .top-box ul li .map {
+    position: relative;
+}
+.main .tab-con .tab-con-box .top-box ul li .map::after {
+    content: '';
+    position: absolute;
+    width: 115px;
+    height: 2px;
+    background: #fff;
+    right: 5px;
+    bottom: -10px;
+}
+.main .tab-con .tab-con-box .top-box ul li .map::before {
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/main_campus_ico01.png');
+    content: '';
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.main .tab-con .tab-con-box .top-box ul li .tour {
+    position: relative;
+}
+.main .tab-con .tab-con-box .top-box ul li .tour::after {
+    content: '';
+    position: absolute;
+    width: 195px;
+    height: 2px;
+    background: #fff;
+    right: 5px;
+    bottom: -10px;
+}
+.main .tab-con .tab-con-box .top-box ul li .tour::before {
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/main_campus_ico02.png');
+    content: '';
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.main .tab-con .tab-con-box .btm-box {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+}
+.main .tab-con .tab-con-box .btm-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 70px;
+    position: relative;
+    padding-left: 90px;
+}
+.main .tab-con .tab-con-box .btm-box h4::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/main_campus_ico03.png');
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main .tab-con .tab-con-box .btm-box .link-list {
+    display: flex;
+}
+.main .tab-con .tab-con-box .btm-box .link-list li {
+    padding: 7px 14px;
+    margin: 0 5px;
+    background: var(--activeColor);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main .tab-con .tab-con-box .btm-box .link-list li a {
+    font-size: 14px;
+    font-weight: 400;
+}

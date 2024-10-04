@@ -1,0 +1,346 @@
+/* education */
+#education {
+    width: 100%;
+    position: relative;
+}
+#education .page .con-box {
+    margin: 85px auto 0px;
+    width: 1600px;
+    position: relative;
+}
+#education #container #content {
+    width: 100%;
+}
+
+#education #educationVisual {
+    width: 100%;
+}
+#education #container #content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+/* visual */
+#education #educationVisual .bg-img-wrap {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/slide/240809_2024_sgrade_bg.jpg');
+    width: 1600px;
+    height: 600px;
+    margin: 85px auto 0px;
+    border-radius: 10px;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url('../images/educationPage/bg-color-visual.png');
+    width: 1600px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap ul {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap ul li a {
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap p {
+    color: #fff;
+    font-weight: 700;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap > p::selection {
+    background: var(--mainColor);
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap p.p1 {
+    position: absolute;
+    font-size: 80px;
+    left: 250px;
+    top: 60px;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap p.p2 {
+    position: absolute;
+    font-size: 100px;
+    right: 80px;
+    top: 215px;
+}
+#education #educationVisual .bg-img-wrap .bg-img-color-wrap p.p3 {
+    position: absolute;
+    font-size: 70px;
+    left: 100px;
+    bottom: 70px;
+    text-transform: uppercase;
+}
+
+/* video */
+#education #container #content .video-play iframe {
+    width: 1600px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+/* ideology-con */
+#education #container #content .ideology-con .ideology-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#education #container #content .ideology-con .ideology-ul li {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 40px 20px 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#education #container #content .ideology-con .ideology-ul li:last-child {
+    margin-right: 0;
+}
+#education #container #content .ideology-con .ideology-ul li:hover {
+    background: #1d7fbf;
+}
+#education #container #content .ideology-con .ideology-ul li .img-wrap {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+#education #container #content .ideology-con .ideology-ul li p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1d7fbf;
+}
+#education #container #content .ideology-con .ideology-ul li:hover p {
+    color: #fff;
+}
+#education #container #content .ideology-con .ideology-ul li span {
+    display: block;
+    font-size: 20px;
+}
+#education #container #content .ideology-con .ideology-ul li:hover span {
+    color: #fff;
+}
+/* core-con */
+#education #content .cuk-core-con .cuk-core-ul > li {
+    margin-bottom: 20px;
+    user-select: none;
+}
+#education #content .cuk-core-con .cuk-core-ul > li:last-child {
+    margin-bottom: 85px;
+}
+#education #content .cuk-core-con .cuk-core-ul li .li-con-wrap {
+    display: flex;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+#education #content .cuk-core-con .cuk-core-ul li.active .li-con-wrap {
+    background: #1d7fbf;
+    color: #fff;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-left-wrap {
+    display: flex;
+    align-items: center;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-left-wrap strong {
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-left-wrap p {
+    font-size: 35px;
+    font-weight: 700;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-left-wrap p span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+#education #content .cuk-core-con .cuk-core-ul li.active .core-left-wrap p span {
+    color: #fff;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-right-wrap {
+    display: flex;
+    align-items: center;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-right-wrap p {
+    width: 700px;
+    word-break: keep-all;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-right-wrap .btn-wrap i {
+    font-size: 60px;
+    color: #1d7fbf;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#education #content .cuk-core-con .cuk-core-ul li.active .core-right-wrap .btn-wrap i {
+    color: #fff;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-right-wrap .btn-wrap i.xi-minus-circle {
+    display: none;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li.active
+    .core-right-wrap
+    .btn-wrap
+    i.xi-minus-circle {
+    display: block;
+}
+#education #content .cuk-core-con .cuk-core-ul li .core-right-wrap .btn-wrap i.xi-plus-circle {
+    display: block;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li.active
+    .core-right-wrap
+    .btn-wrap
+    i.xi-plus-circle {
+    display: none;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con {
+    display: none;
+    height: 500px;
+    border-radius: 10px;
+    background: #132746;
+    color: #fff;
+    padding: 60px 100px;
+    box-sizing: border-box;
+}
+#education #content .cuk-core-con .cuk-core-ul li.active .cuk-core-click-con {
+    display: block;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con ul {
+    display: flex;
+    align-items: center;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con .img-wrap {
+    width: 400px;
+    height: 380px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-right: 30px;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con .img-wrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con .img-wrap > p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: 500;
+    opacity: 1;
+    pointer-events: auto;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con .img-wrap:hover > p {
+    opacity: 0;
+    pointer-events: none;
+}
+#education #content .cuk-core-con .cuk-core-ul li .cuk-core-click-con .img-wrap .mouseenter-con {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 39, 70, 1) 0%,
+        rgba(255, 255, 255, 0.7) 70%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transition: 0.3s;
+    transform: translateY(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li
+    .cuk-core-click-con
+    .img-wrap:hover
+    .mouseenter-con {
+    transform: translateY(0);
+    text-shadow: 0 0 30px #999;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li
+    .cuk-core-click-con
+    .img-wrap
+    .mouseenter-con
+    > p {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li
+    .cuk-core-click-con
+    .img-wrap
+    .mouseenter-con
+    > p::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 43px;
+}
+#education
+    #content
+    .cuk-core-con
+    .cuk-core-ul
+    li
+    .cuk-core-click-con
+    .img-wrap
+    .mouseenter-con
+    > span {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    word-break: keep-all;
+}
+/* ////education//// */

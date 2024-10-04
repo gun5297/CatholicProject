@@ -1,0 +1,236 @@
+#main_top {
+    height: 100vh;
+    min-width: 1600px;
+}
+
+#main_top .section {
+    width: 100%;
+    /* height: 100vw; */
+    height: 100%;
+}
+#main_top .section1 {
+    position: relative;
+}
+#main_top .announce {
+    height: 51px;
+    min-width: 1600px;
+    display: flex;
+    justify-content: center;
+    /* background-color: pink; */
+}
+#main_top .announce .subNotice {
+    width: 100%;
+}
+#main_top .announce .subNotice li span,
+#main_top .announce .subNotice a {
+    position: absolute;
+    font-size: 24px;
+    z-index: 10;
+    line-height: 50px;
+    color: white;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+#main_top .announce .subNotice .delete {
+    /* background-color: ; */
+    left: 85%;
+}
+#main_top .announce .subNotice .prev {
+    left: 25%;
+    transform: translateX(-50%);
+}
+#main_top .announce .subNotice .next {
+    left: 75%;
+    transform: translateX(-50%);
+}
+#main_top .announce .subNotice li span {
+    left: 50%;
+    transform: translateX(-60%);
+}
+#main_top .announce .subNotice {
+    height: 52px;
+    /* background-color: pink; */
+}
+#main_top #header {
+    z-index: 999;
+    position: absolute;
+}
+#main_top #header li a,
+#main_top #header i {
+    color: white;
+}
+#header .hdr-btm-box .pop-menu-ul li .right .right-sub-ul li ul li a {
+    color: #7ca0bf !important;
+}
+#main_top #header .sub-wrap li a {
+    color: #333333;
+}
+#main_top #header.active {
+    background-color: white;
+}
+#main_top #header.active li a,
+#main_top #header.active i {
+    color: #000;
+}
+#main_top #header.active .hdr-top-box.active li a,
+#main_top #header.active .hdr-top-box.active i {
+    color: #fff;
+}
+
+#main_top #header .hdr-top-box .top-box-in .logo {
+    position: relative;
+    height: 100%;
+    width: 48px;
+}
+#main_top #header .hdr-top-box .top-box-in .logo img {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+#main_top #header .hdr-top-box .top-box-in .logo img:first-child {
+    display: none;
+}
+#main_top #header.active .hdr-top-box .top-box-in .logo img:first-child {
+    display: block;
+}
+#main_top #header .hdr-top-box .top-box-in .logo img:last-child {
+    display: block;
+}
+#main_top #header.active .hdr-top-box .top-box-in .logo img:last-child {
+    display: none;
+}
+#main_top #header.active .hdr-top-box li a {
+    color: var(--font-color-dark);
+    font-weight: 600;
+}
+#main_top #header.active .hdr-top-box .hdr-l-box li:nth-child(1) a {
+    color: var(--activeColor);
+}
+#main_top #header .hdr-top-box .hdr-l-box li:nth-child(1) a::before {
+    width: 32px;
+    height: 32px;
+    background-image: url('https://www.catholic.ac.kr/_res/cuk/ko/img/main/main_header_seongsim_wh.png');
+}
+#main_top #header .pop-menu-btn {
+    font-size: 24px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+/* #main_top #header .hdr-btm-box .gnb-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#main_top .mainVideoBox {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    z-index: 3;
+    background: white;
+    overflow-y: hidden;
+}
+#main_top .mainVideoBox .mainVideo {
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+}
+#main_top .mainVideoBox .mainVideo iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* transform: scale(1.2); */
+}
+#main_top .mainVideoBox .mainVideoUl {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 3em;
+    background: black;
+    opacity: 0.7;
+    z-index: 5;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    font-size: 16px;
+}
+#main_top .mainVideoBox .mainVideoUl a {
+    opacity: 1 !important;
+    color: white;
+}
+#main_top .mainVideoBox #header .hdr-btm-box {
+}
+#main_top .section_1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    overflow: hidden;
+}
+#main_top .section_1 .mainSlider.grabSlide {
+}
+#main_top .section_1 .sec1_bigSlider {
+    width: 100%;
+    height: 100%;
+}
+#main_top .section_1 .mainSlider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_top .section_1 .mainSlider .slide {
+    position: absolute;
+
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* z-index: 1; */
+}
+
+.hide {
+    display: none !important;
+}
+
+#main_top .section_1 .mainSlider .mainSliderControl {
+    /* z-index: ; */
+
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 70px;
+    /* background: white; */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 14px; */
+}
+#main_top .section_1 .mainSlider .mainSliderControl span,
+#main_top .section_1 .mainSlider .mainSliderControl a {
+    font-size: 20px;
+    margin: 14px;
+    color: white;
+    /* background-color: #333333; */
+}
+#main_top .section_1 .mainSlider .mainSliderControl .progressBox {
+    appearance: none;
+}
+#main_top .section_1 .mainSlider .mainSliderControl .progressBox::-webkit-progress-bar {
+    background-color: white;
+    height: 2px;
+    /* margin: 10px; */
+}
+#main_top .section_1 .mainSlider .mainSliderControl .progressBox::-webkit-progress-value {
+    background-color: var(--mainColor);
+    /* margin: 10px; */
+}

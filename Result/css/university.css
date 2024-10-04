@@ -1,0 +1,355 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#normal {
+    width: 100%;
+}
+#sub-container {
+    margin: 150px auto;
+}
+#normal .banner1 {
+    width: 100%;
+    background: url(../images/26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#normal #main {
+    width: 1400px;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+#normal #wrap {
+    width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 964px;
+}
+
+#normal .path-box {
+    width: 1400px;
+    height: 64px;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    margin-bottom: 20px;
+    position: relative;
+    margin: auto;
+    padding: 0 251px;
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#normal .page-title {
+    width: 1400px;
+    font-size: 48px;
+}
+
+#normal .page-title h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 58px;
+    margin: 48px 0;
+}
+
+#normal .graduate {
+    display: flex;
+    padding: 0px;
+    margin: 20px 0;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#normal .graduate li {
+    width: 694px;
+    height: 58px;
+    text-align: center;
+    font-weight: 700;
+    background: #dcdcdc;
+    font-size: 16px;
+    line-height: 58px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+
+#normal .graduate li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    line-height: 58px;
+}
+
+#normal .graduate li:first-child {
+    background: white;
+    color: #0c2e86;
+    border: 2px solid #0c2e86;
+}
+
+#normal .boxwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1400px;
+    box-sizing: border-box;
+}
+
+#normal .bd-box {
+    width: 444px;
+    height: 519px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#normal .bd-box .imgbox {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#normal .bd-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+#normal .bd-box .imgbox:hover img {
+    transform: scale(1.1);
+}
+
+#normal .text-box {
+    color: #555;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+#normal .text-box h3 {
+    color: black;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+#normal .text-box p,
+#normal .text-box span {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 700px;
+}
+
+#normal .btn-box {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#normal .btn-box .btn1,
+#normal .btn-box .btn2 {
+    flex: 1;
+    height: 55px;
+    background: none;
+    border: 1px solid #dcdcdc;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#normal .btn-box .btn1 {
+    border-right: none;
+    color: #0c2e86;
+    font-weight: 700;
+}
+#normal .btn-box .btn1 a {
+    color: #0c2e86;
+}
+
+#normal .btn-box .btn2 {
+    color: black;
+    font-weight: 700;
+}
+#normal .btn-box .btn1:hover {
+    background-color: #f1f1f1;
+}
+#normal .btn-box .btn2:hover {
+    background-color: #f1f1f1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#spacial {
+    width: 100%;
+}
+#spacial .banner1 {
+    width: 100%;
+    background: url(../images/26.jpg);
+    background-size: cover;
+}
+#spacial #main {
+    width: 1400px;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+#spacial .page-title {
+    width: 1400px;
+    font-size: 48px;
+}
+
+#spacial .page-title h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 58px;
+    margin: 48px 0;
+}
+
+#spacial .graduate {
+    display: flex;
+    padding: 0px;
+    margin: 20px 0;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#spacial .graduate li {
+    width: 694px;
+    height: 58px;
+    text-align: center;
+    font-weight: 700;
+    background: #dcdcdc;
+    font-size: 16px;
+    line-height: 58px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+
+#spacial .graduate li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    line-height: 58px;
+}
+
+#spacial .graduate li:last-child {
+    background: white;
+    color: #0c2e86;
+    border: 2px solid #0c2e86;
+}
+
+#spacial .section-container {
+    padding-top: 45px;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#spacial .section-container:last-child {
+    padding-bottom: 110px;
+}
+
+#spacial .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    white-space: nowrap;
+    padding-right: 66px;
+}
+
+#spacial .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#spacial .card {
+    width: 386px;
+    height: 227px;
+    border: 0.5px solid #ddd;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#spacial .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#spacial .card-info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+#spacial .card-info p {
+    margin-bottom: 15px;
+}
+
+#spacial .card-info i {
+    margin-right: 5px;
+}
+
+#spacial .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#spacial .card-buttons button {
+    width: 193px;
+    height: 55px;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 15px;
+}
+#spacial .card-buttons button:first-child {
+    color: #0c2e86;
+    border-right: none;
+}
+
+#spacial .card-buttons button:hover {
+    background-color: #f1f1f1;
+}
+
+#spacial .card-buttons button i {
+    margin-left: 5px;
+}
